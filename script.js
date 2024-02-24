@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
-  // Close navigation bar when a link is clicked
+
   navLinks.forEach(link => {
     link.addEventListener("click", function() {
       navbar.style.width = "0";
